@@ -1,4 +1,4 @@
-# link 
+# link
 
 ---
 
@@ -6,4 +6,12 @@
 
 ---
 
+## Contact information
 
+- **Phone:** +375(25) 728-25-76
+- **Email:** pavel.siarzhantau@gmail.com
+- **Telegram:** @pSerz
+- **Linkedln:** **[Pavel Serzhantov](https://www.linkedin.com/in/pavelsiarzhantau/)**
+- **Skype:** **[Pavel Serzhantov](live:.cid.2c1b2630d490567a)**
+
+---
