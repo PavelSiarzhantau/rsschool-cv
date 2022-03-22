@@ -22,3 +22,11 @@ To obtain Salesforce Developer junior position in a highly-established company t
 
 ---
 
+## Professional skills
+
+- Strong communication skills and ability to build relationships at all levels.
+- Good understanding of web technologies and OOP principles.
+- Basic knowledge of Java, Apex, HTML, CSS, GIT, JS, LWC, Aura, Visualforce,Salesforce.
+- Flexible and able to adapt to a changing environment.
+
+---
