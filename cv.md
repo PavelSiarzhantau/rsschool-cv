@@ -100,3 +100,11 @@ function countPositivesSumNegatives(input) {
 
 
 ---
+
+## Languages
+
+- **English - Intermediate**  
+- **Russian - Native**
+
+---
+  
