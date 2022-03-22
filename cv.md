@@ -15,3 +15,10 @@
 - **Skype:** **[Pavel Serzhantov](live:.cid.2c1b2630d490567a)**
 
 ---
+
+## Job objective
+
+To obtain Salesforce Developer junior position in a highly-established company that will help to develop my career.
+
+---
+
