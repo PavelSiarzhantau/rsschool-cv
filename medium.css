@@ -1,0 +1,75 @@
+@media (max-width: 950px) {
+  .navigation .navigation_items {
+    display: none;
+  }
+  .column_left{
+     width: 40%;
+  }
+  .column_right{
+     width: 60%;
+  }
+  .mainImage {
+    width: 180px;
+    height: 180px;
+  }
+  .information_item,
+  .information_item a {
+    font-size: 14px;
+  }
+  .hamb {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+  }
+  .hamb__field {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 6px auto;
+    background-color: white;
+    transition: 0.2s;
+  }
+  .popup {
+    position: fixed;
+    top: 0px;
+    right: -100%;
+    width: 100px;
+    height: 250px;
+    background-color: #e5e5e5;
+    z-index: 99;
+    display: flex;
+    transition: 0.3s;
+    padding-top: 80px;
+  }
+  .popup .navigation_items{
+     flex-direction: column;
+     justify-content: flex-start;
+  }
+  .popup .navigation_items .navigation_items_item a{
+     width: 100%;
+  }
+  .popup.open {
+    right: 0px;
+  }
+  .hamb__field.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamb__field.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamb__field.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  body.noscroll {
+    overflow: hidden;
+  }
+}

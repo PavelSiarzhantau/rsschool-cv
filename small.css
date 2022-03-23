@@ -1,0 +1,15 @@
+@media (max-width: 660px){
+   .header{
+      flex-direction:column-reverse;
+   }
+   .column_right_header{
+      width: 100%;
+   }
+   .column_left{
+      width: 100%;
+   }
+   .column_right{
+      width: 100%;
+   }
+   
+}
