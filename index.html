@@ -5,13 +5,108 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet">
    <link rel="stylesheet" href="style.css">
    <title>Document</title>
 </head>
 
 <body>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque quo vitae doloribus ipsum eos. Molestias id,
-      nulla alias nemo quidem ipsa repellat fugit deleniti praesentium, ullam, consequuntur ducimus incidunt?</p>
+   <div class="wrapper">
+      <header class="header flex-wrap">
+         <div class="column column_left column_left_header">
+            <div class="content_wrapper">
+               <div class="mainImage"></div>
+            </div>
+         </div>
+         <div class="column column_right column_right_header">
+            <nav class="navigation content_wrapper">
+               <ul class="navigation_items flex-wrap ">
+                  <li class="navigation_items_item"><a href="#">Contact information</a></li>
+                  <li class="navigation_items_item"><a href="#">Job Objective</a></li>
+                  <li class="navigation_items_item"><a href="#">Professional skills</a></li>
+                  <li class="navigation_items_item"><a href="#">Code Example</a></li>
+                  <li class="navigation_items_item"><a href="#">Career</a></li>
+                  <li class="navigation_items_item"><a href="#">Courses</a></li>
+                  <li class="navigation_items_item"><a href="#">Languages</a></li>
+               </ul>
+               <div class="name">Pavel Serzhantov</div>
+               <div class="position">Salesforce Developer</div>
+            </nav>
+
+         </div>
+      </header>
+      <main class="main flex-wrap">
+         <div class="column_left column_left_main">
+            <section class="information content_wrapper">
+               <div class="information_item">Belarus, Minsk</div>
+               <div class="information_item">09 August, 1995</div>
+               <div class="information_item">+375(25) 728-25-76</div>
+               <div class="information_item"><a
+                     href="mailto:pavel.siarzhantau@gmail.com">Pavel.Siarzhantau@gmail.com</a>
+               </div>
+               <div class="information_item"><a href="https://www.linkedin.com/in/pavelsiarzhantau/">Linkedin: Pavel
+                     Serzhantov</a></div>
+               <div class="information_item">Skype: live:.cid.2c1b2630d490567a</div>
+            </section>
+         </div>
+         <!-- right main column -->
+         <div class="column column_right column_right_main content_wrapper">
+            <!-- first section -->
+            <section class="information-main">
+               <div class="information-main__title">About me</div>
+               <div class="information-main__line"></div>
+               <div class="information-main__description">
+                  <p class="information-main__text">
+                     Hi! I’m a junior Salesforce developer,due to the current difficult
+                     situation I'm looking for a job. I have a big desire to grow and develop as a Salesforce developer,
+                     also I'm someone who has strong passion to IT.
+                     I'm excellent communicator,and I can work well both on my own, and as a part of team. If you hire
+                     me you will quickly see a positive return on your investment. </p>
+               </div>
+            </section>
+            <section class="information-main">
+               <div class="information-main__title">Job Objective</div>
+               <div class="information-main__line"></div>
+               <div class="information-main__description">
+                  <p class="information-main__text">
+                     To obtain Salesforce Developer junior position in a highly-established company that will help to
+                     develop my career.</p>
+               </div>
+            </section>
+            <section class="information-main">
+               <div class="information-main__title">Career</div>
+               <div class="information-main__line"></div>
+               <div class="information-main__description">
+                  <!-- description-item block -->
+                  <div class="description">
+                     <div class="description__logo">
+                        privet
+                     </div>
+                     <ul class="description__items">
+                        <li class="description__item">
+                           <p class="description__text-title">VRP Consulting</p>
+                           <p class="description__text-position">Salesforce developer</p>
+                           <p class="description__text-description">I was responsible for develop various Apex classes
+                              and triggers for functional needs, also I fixed the existing bugs and worked with LWC and
+                              Visualforce.During my internship, I studied main topics such as Salesforce fundamentals,
+                              data modeling and management, security data model, automations tools, app development,
+                              testing, integrations and deployment tools, as well I dealt with Jira and confluence.</p>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </main>
+      <footer class="footer flex-wrap">
+         <div class="column column_left column_left_footer"></div>
+         <div class="column column_right column_right_footer"></div>
+      </footer>
+   </div>
 </body>
 
 </html>

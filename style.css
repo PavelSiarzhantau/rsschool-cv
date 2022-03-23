@@ -1,3 +1,237 @@
-*{
-   color: red;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: nowrap;
+}
+.header {
+  display: flex;
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.column {
+  box-sizing: border-box;
+}
+.column_left {
+  width: 30%;
+  background-color: #233a5f;
+}
+.column_right {
+  width: 70%;
+  background-color: #ffffff;
+  height: 100%;
+}
+.column_left_header {
+}
+.column_right_header {
+}
+.column_left_main {
+}
+.column_right_main {
+}
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  height: 50px;
+}
+.column_left_footer {
+  border: solid 1px red;
+}
+.column_right_footer {
+  border: solid 1px red;
+}
+.navigation {
+  font-size: 16px;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+}
+.content_wrapper {
+  padding: 15px;
+}
+.navigation_items {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.navigation_items_item {
+  display: flex;
+}
+.navigation_items_item a {
+  text-decoration: none;
+  display: flex;
+  color: #233a5f;
+  transition: 500ms;
+  padding: 2px;
+}
+.navigation_items_item a:hover {
+  color: white;
+  transition: 500ms;
+  background-color: #233a5f;
+  border-radius: 5px;
+  /* text-decoration: underline; */
+}
+.name {
+  font-style: normal;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding-top: 50px;
+  font-size: 32px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  color: #233a5f;
+}
+.position {
+  display: flex;
+  box-sizing: border-box;
+  color: #233a5f;
+  padding-top: 18px;
+  font-size: 16px;
+}
+.mainImage {
+  width: 200px;
+  height: 200px;
+  background-image: url("./images/myPhoto.jpg");
+  background-size: cover;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  /* box-shadow: 0 2px 5px #aaa; */
+}
+
+.information {
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border: greenyellow 2px solid;
+}
+.information_item {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+  background: #e5e5e5;
+  border-radius: 4px;
+  color: #233a5f;
+  font-size: 16px;
+  padding: 5px;
+}
+.information_item a {
+  text-decoration: none;
+  display: flex;
+  color: #233a5f;
+}
+.information_item a:hover {
+  text-decoration: underline;
+}
+
+.information-main {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: solid red 1px;
+}
+.information-main__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 18px;
+  text-align:start;
+  color: #233a5f;
+}
+.information-main__line {
+   display: block;
+   height: 4px;
+   width: 80px;
+   border-radius: 2px;
+   background-color:#233a5f;
+   margin-top: 10px;
+}
+.information-main__description {
+   display: flex;
+   box-sizing: border-box;
+   flex-direction: row;
+}
+.information-main__text {
+  color: #233a5f;
+  font-size: 16px;
+}
+.description{
+   display: flex;
+   box-sizing: border-box;
+   border: solid 1px green;
+}
+.description__logo{
+
+}
+.description__items{
+   display: flex;
+   box-sizing: border-box;
+   list-style:none;
+   padding: 0;
+   margin: 0;
+   flex-direction: column;
+}
+.description__item{
+   display: flex;
+   box-sizing: border-box;
+   flex-direction: column;
+   position: relative;
+   border: solid 1px teal;
+   padding-left: 20px;
+}
+.description__text-title{
+   display: flex;
+   margin: 0;
+   font-size: 20px;
+   font-weight: 600;
+   color: #233a5f;
+   border: solid red 1px;
+}
+.description__text-position{
+   display: flex;
+   margin: 0;
+   font-size: 16px;
+   font-weight: 600;
+   color: #233a5f;
+   border: solid 1px red;
+}
+.description__text-description{
+   margin: 0;
+   display: flex;
+   font-size: 16px;
+   color: #233a5f;
+   border: solid red 1px;
+}
+.description__item::before {
+   content: '';
+   position: absolute;
+   left: 0px;
+   top: 12px;
+   display: flex;
+   width: 8px;
+   height: 8px;
+   background-color:#233a5f;
+   border-radius: 50%;
 }
